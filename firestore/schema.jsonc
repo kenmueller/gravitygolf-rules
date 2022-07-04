@@ -1,0 +1,13 @@
+{
+	"community_levels": {
+		"[level]": {
+			"name": "Hardest Level",
+			"gravity": 1,
+			"antigravity": 1,
+			"stars": 2,
+			"attempts": 10,
+			"completions": 5,
+			"data": {}
+		}
+	}
+}

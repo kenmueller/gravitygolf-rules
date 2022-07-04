@@ -1,0 +1,15 @@
+{
+	"name": "gravitygolf",
+	"version": "1.0.0",
+	"engines": {
+		"node": "16"
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"prettier": "^2.7.1"
+	},
+	"private": true
+}
