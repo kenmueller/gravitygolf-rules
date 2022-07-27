@@ -6,6 +6,10 @@ service cloud.firestore {
 			allow read: if isSignedInAs(user)
 		}
 
+		match /levels/{level} {
+			allow read
+		}
+
 		function isSignedIn() {
 			return request.auth != null
 		}
